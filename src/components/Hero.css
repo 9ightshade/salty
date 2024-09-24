@@ -1,0 +1,94 @@
+form{
+    /* border: blue solid 2px; */
+    width: fit-content;
+    padding: 1em 1em;
+    border-radius: 3em;
+    display: flex;
+    background-color: white;
+margin-top: 2em;
+}
+form > input{
+    border: none;
+    outline: none;
+    /* padding: .5em 2em; */
+}
+.hero-section{
+    background-image:  url("../../public/hero-gradient.png");
+    border-radius: 4em;
+}
+.top-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 3em;
+}
+.logo{
+    width: 200px;
+}
+.logo > img{
+    width: 100%;
+}
+.waitlist-btn{
+    color: white;
+    border-radius: 2em;
+    border: none;
+    padding: 1em 2em ;
+    font-weight: 500;
+    background-color: blue;
+    cursor: pointer;
+}
+.article-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 3em;
+    gap: 2em;
+}
+.slaty{
+    background: linear-gradient(180deg,
+                rgba(69, 62, 107, 0.99),
+                rgba(22, 221, 137, 0.99));
+                -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+}
+.hero-heading{
+    font-size: 5vw;
+}
+.hero-paragraph{
+    color:rgba(22, 221, 137, 0.99) ;
+    font-size: 1.7vw;
+}
+
+.hero-aside{
+    /* max-width:600px; */
+}
+.hero-aside > img{
+    width: 100%;
+}
+.more-details{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 2em;
+    margin: 2em 0;
+    align-items: center;
+}
+.get-connected{
+    display: flex;
+    height: 200px;
+    border-radius: 3em;
+    align-items: center;
+    background-color: rgba(22, 221, 137, 0.99);
+}
+.education-resources{
+    display: flex;
+    height:200px;
+    border-radius: 3em;
+    align-items: center;
+    background-color:rgba(69, 62, 107, 0.99);
+}
+.details-image{
+    width: 300px;
+}
+.details-image > img{
+    width: 100%;
+}
